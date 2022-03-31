@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./cards.js"></script>
+    <script src="./game.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack</title>
+  </head>
+  <body onload="setPlayerInitHand()">
+    <!-- <button onclick="setPlayerInitHand()">Deal</button> -->
+    <button onclick="hitMe()">Hit me</button>
+    <button onclick="showScores()">Get Scores</button>
+    <button onclick="sit()">Sit</button>
+
+    <div id="displayPlayerScore"></div>
+    <div id="displayPlayerCards"></div>
+    <h1>house</h1>
+    <div id="displayHouseScore"></div>
+    <div id="displayHouseCards"></div>
+  </body>
+</html>
